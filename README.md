@@ -1,12 +1,18 @@
 # ALM_Test
 Test app for ALM Works
 
-App functionality:
+# Build:
 
-To drag a sticker you need to use the top area of the sticker;
+npm i
 
-Adding/editing text and changing size same as textarea;
+npm run build
 
-To delete sticker you need to drag it to the right area;
+# App functionality:
 
-On the sidebar there are buttons for adding stickers, clearing desk and saving desk (to localStorage);
+* To drag a sticker you need to use the top area of the sticker;
+
+* Adding/editing text and changing size same as textarea;
+
+* To delete sticker you need to drag it to the right area;
+
+* On the sidebar there are buttons for adding stickers, clearing desk and saving desk (to localStorage);
