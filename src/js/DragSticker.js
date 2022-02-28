@@ -40,4 +40,4 @@ export default function(event) {
 
     document.addEventListener('mousemove', onMouseMove);  
     desk.addEventListener('mouseup', onMouseUp);
-};
+}

@@ -28,7 +28,6 @@ html, body {
             border: none;
             border-radius: 4px;
             padding: 4px 10px;
-            background: #33b332;
             color: #fff;
             margin: 20px 0 0;
             cursor: pointer;
@@ -48,6 +47,14 @@ html, body {
 
             &:hover {
                 background: #3e79c6;
+            }
+        }
+
+        .clear_button {
+            background: #b33237;
+
+            &:hover {
+                background: #ce464c;
             }
         }
 
