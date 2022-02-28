@@ -7,6 +7,8 @@ npm i
 
 npm run build
 
+This is not necessary because dist folder has already been created.
+
 # App functionality:
 
 * To drag a sticker you need to use the top area of the sticker;
