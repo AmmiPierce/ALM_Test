@@ -1,0 +1,101 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+    outline: none;
+}
+
+.container {
+    display: flex;
+    height: 100%;
+
+    .sidebar {
+        position: relative;
+        width: 160px;
+        background: #242424;
+        flex: none;
+        padding: 0 15px;
+        box-sizing: border-box;
+
+        button {
+            width: 100%;
+            font-size: 20px;
+            border: none;
+            border-radius: 4px;
+            padding: 4px 10px;
+            background: #33b332;
+            color: #fff;
+            margin: 20px 0 0;
+            cursor: pointer;
+            transition: .2s;
+        }
+
+        .add_button {
+            background: #33b332;
+
+            &:hover {
+                background: #47c146;
+            }
+        }
+
+        .save_button {
+            background: #326ab3;
+
+            &:hover {
+                background: #3e79c6;
+            }
+        }
+
+        .delete_area {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 20px;
+            opacity: .3;
+            display: none;
+        }
+    }
+
+    .desk {
+        width: 100%;
+        position: relative;
+        background: #eee;
+
+        .sticker {
+            position: absolute;
+            padding-top: 20px;
+            background: #e0dd5e;
+            cursor: grab;
+
+            &:active:hover {
+                cursor: grabbing;
+            }
+            
+            textarea {
+                display: block;
+                width: 120px;
+                height: 100px;
+                min-width: 100px;
+                min-height: 90px;
+                background: transparent;
+                border: none;
+                padding: 0 10px 10px;
+                box-sizing: border-box;
+                font-size: 20px;
+                color: #131010;
+                cursor: auto;
+            }
+        }
+    }
+}
